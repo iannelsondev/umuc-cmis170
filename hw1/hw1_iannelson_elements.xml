@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Ian Nelson   -->
+<!-- CMIS170      -->
+<!-- Homework 1   -->
+<!-- Nick Pitocco -->
+
+<!-- List of Books -->
+<books>
+	<!-- Node.js in Action -->
+	<book title="Node.js in Action" publisher="Manning" price="$26.09" publicationDate="11-13-2013">
+		<authors>
+			<author name="Mike Cantelon" />
+			<author name="Mark Harter" />
+			<author name="TJ Holowaychuk" />
+			<author name="Nathan Rajlich" />
+		</authors>
+	</book>
+	<!-- Secrets of the Javascript Ninja -->
+	<book title="Secrets of the Javascript Ninja" publisher="Manning" price="$26.44" publicationDate="12-28-2012">
+		<authors>
+			<author name="John Resig" />
+			<author name="Bear Bibeault" />
+		</authors>
+	</book>
+</books>
+
+<!-- Validated with http://www.xmlvalidation.com/index.php -->
