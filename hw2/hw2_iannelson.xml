@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Ian Nelson   -->
+<!-- CMIS170      -->
+<!-- Homework 2   -->
+<!-- Nick Pitocco -->
+
+<UMUC1:games xmlns:UMUC1="http://umuc.edu/namespaces/games">
+    <UMUC1:game name="Call of Duty: Modern Warfare">
+        <UMUC1:size>24</UMUC1:size>
+        <UMUC1:dateOfCollection>2013-07-21</UMUC1:dateOfCollection>
+        <UMUC1:collectionSite>Wal-Mart</UMUC1:collectionSite>
+    </UMUC1:game>
+    <UMUC1:game name="Diablo III">
+        <UMUC1:size>167</UMUC1:size>
+        <UMUC1:dateOfCollection>2014-02-09</UMUC1:dateOfCollection>
+        <UMUC1:collectionSite>GameStop</UMUC1:collectionSite>
+    </UMUC1:game>
+    <UMUC1:game name="World of Warcraft">
+        <UMUC1:size>10871</UMUC1:size>
+        <UMUC1:dateOfCollection>2013-11-14</UMUC1:dateOfCollection>
+        <UMUC1:collectionSite>Amazon</UMUC1:collectionSite>
+    </UMUC1:game>
+    <UMUC1:game name="Hello Kitty Island Adventure">
+        <UMUC1:size>1</UMUC1:size>
+        <UMUC1:dateOfCollection>2014-04-17</UMUC1:dateOfCollection>
+        <UMUC1:collectionSite>Dollar Store</UMUC1:collectionSite>
+    </UMUC1:game>
+</UMUC1:games>
+
+
+<!-- Validated with http://www.xmlvalidation.com/index.php -->
