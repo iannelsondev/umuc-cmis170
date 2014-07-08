@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE table [
-<!ELEMENT table (element+)>
-<!ELEMENT element (name,atomicWeight,atomicNumber,symbol)>
-<!ELEMENT name (#PCDATA)>
-<!ELEMENT atomicWeight (#PCDATA)>
-<!ELEMENT atomicNumber (#PCDATA)>
-<!ELEMENT symbol (#PCDATA)>
-]>
-	
+<!DOCTYPE table SYSTEM "table.dtd">
+
 <!-- Ian Nelson   -->
 <!-- CMIS170      -->
 <!-- Homework 3   -->
 <!-- Nick Pitocco -->
-		
+
 <table>
   <element>
     <name>Actinium</name>

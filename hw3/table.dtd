@@ -1,0 +1,6 @@
+<!ELEMENT table (element+)>
+<!ELEMENT element (name,atomicWeight,atomicNumber,symbol)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT atomicWeight (#PCDATA)>
+<!ELEMENT atomicNumber (#PCDATA)>
+<!ELEMENT symbol (#PCDATA)>
