@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE movies SYSTEM "movies.dtd">
+
+<!-- Ian Nelson   -->
+<!-- CMIS170      -->
+<!-- Project 1    -->
+<!-- Nick Pitocco -->
+
+<!-- Ten most popular DVDs -->
+
+<movies>
+    <movie genre="action" movieRating="R" viewerRating="5">
+        <title>Terminator 2: Judgement Day</title>
+        <summary>A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her teenage son, John, from a more advanced cyborg, made out of liquid metal.</summary>
+        <year>1991</year>
+        <director>James Cameron</director>
+        <runtime>137</runtime>
+        <studio>Carolco Pictures</studio>
+        <actors>
+            <actor>
+                <lastName>Schwarzenegger</lastName>
+                <firstName>Arnold</firstName>
+                <url>http://www.imdb.com/name/nm0000216/</url>
+            </actor>
+            <actor>
+                <lastName>Hamilton</lastName>
+                <firstName>Linda</firstName>
+                <url>http://www.imdb.com/name/nm0000157/</url>
+            </actor>
+            <actor>
+                <lastName>Furlong</lastName>
+                <firstName>Edward</firstName>
+                <url>http://www.imdb.com/name/nm0000411/</url>
+            </actor>
+        </actors>
+    </movie>
+    <movie genre="action" movieRating="R" viewerRating="4">
+        <title>Predator</title>
+        <summary>A team of commandos, on a mission in a Central American jungle, find themselves hunted by an extra-terrestrial warrior.</summary>
+        <year>1987</year>
+        <director>John McTiernan</director>
+        <runtime>107</runtime>
+        <studio>20th Century Fox</studio>
+        <actors>
+            <actor>
+                <lastName>Schwarzenegger</lastName>
+                <firstName>Arnold</firstName>
+                <url>http://www.imdb.com/name/nm0000216/</url>
+            </actor>
+            <actor>
+                <lastName>Weathers</lastName>
+                <firstName>Carl</firstName>
+                <url>http://www.imdb.com/name/nm0001835/</url>
+            </actor>
+            <actor>
+                <lastName>Ventura</lastName>
+                <firstName>Jesse</firstName>
+                <url>http://www.imdb.com/name/nm0001818/?ref_=ttfc_fc_cl_t5</url>
+            </actor>
+        </actors>
+    </movie>
+    <movie genre="other" movieRating="PG-13" viewerRating="3">
+        <title>I, Robot</title>
+        <summary>In 2035 a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity.</summary>
+        <year>2004</year>
+        <director>Alex Proyas</director>
+        <runtime>115</runtime>
+        <studio>20th Century Fox</studio>
+        <actors>
+            <actor>
+                <lastName>Smith</lastName>
+                <firstName>Will</firstName>
+                <url>http://www.imdb.com/name/nm0000226/</url>
+            </actor>
+            <actor>
+                <lastName>Moynahan</lastName>
+                <firstName>Bridget</firstName>
+                <url>http://www.imdb.com/name/nm0005256/</url>
+            </actor>
+            <actor>
+                <lastName>Greenwood</lastName>
+                <firstName>Bruce</firstName>
+                <url>http://www.imdb.com/name/nm0339304/</url>
+            </actor>
+        </actors>
+    </movie>
+    <movie genre="action" movieRating="PG-13" viewerRating="5">
+        <title>The Dark Knight</title>
+        <summary>When Batman, Gordon and Harvey Dent launch an assault on the mob, they let the clown out of the box, the Joker, bent on turning Gotham on itself and bringing any heroes down to his level.</summary>
+        <year>2008</year>
+        <director>Christopher Nolan</director>
+        <runtime>152</runtime>
+        <studio>Warner Brothers</studio>
+        <actors>
+            <actor>
+                <lastName>Bale</lastName>
+                <firstName>Christian</firstName>
+                <url>http://www.imdb.com/name/nm0000288/</url>
+            </actor>
+            <actor>
+                <lastName>Ledger</lastName>
+                <firstName>Heath</firstName>
+                <url>http://www.imdb.com/name/nm0005132/</url>
+            </actor>
+            <actor>
+                <lastName>Eckhart</lastName>
+                <firstName>Aaron</firstName>
+                <url>http://www.imdb.com/name/nm0001173/</url>
+            </actor>
+        </actors>
+    </movie>
+    <movie genre="other" movieRating="R" viewerRating="4">
+        <title>Sin City</title>
+        <summary>A film that explores the dark and miserable town, Basin City, and tells the story of three different people, all caught up in violent corruption.</summary>
+        <year>2005</year>
+        <director>Frank Miller</director>
+        <runtime>124</runtime>
+        <studio>Dimension Films</studio>
+        <actors>
+            <actor>
+                <lastName>Rourke</lastName>
+                <firstName>Mickey</firstName>
+                <url>http://www.imdb.com/name/nm0000620/</url>
+            </actor>
+            <actor>
+                <lastName>Owen</lastName>
+                <firstName>Clive</firstName>
+                <url>http://www.imdb.com/name/nm0654110/</url>
+            </actor>
+            <actor>
+                <lastName>Willis</lastName>
+                <firstName>Bruce</firstName>
+                <url>http://www.imdb.com/name/nm0000246/</url>
+            </actor>
+        </actors>
+    </movie>
+    <movie genre="action" movieRating="PG-13" viewerRating="3">
+        <title>Live Free or Die Hard</title>
+        <summary>John McClane and a young hacker join forces to take down master cyber-terrorist Thomas Gabriel in Washington D.C.</summary>
+        <year>2007</year>
+        <director>Len Wiseman</director>
+        <runtime>128</runtime>
+        <studio>20th Century Fox</studio>
+        <actors>
+            <actor>
+                <lastName>Willis</lastName>
+                <firstName>Bruce</firstName>
+                <url>http://www.imdb.com/name/nm0000246/</url>
+            </actor>
+            <actor>
+                <lastName>Long</lastName>
+                <firstName>Justin</firstName>
+                <url>http://www.imdb.com/name/nm0519043/</url>
+            </actor>
+            <actor>
+                <lastName>Olyphant</lastName>
+                <firstName>Timothy</firstName>
+                <url>http://www.imdb.com/name/nm0648249/</url>
+            </actor>
+        </actors>
+    </movie>
+    <movie genre="family" movieRating="PG" viewerRating="4">
+        <title>Wreck-It Ralph</title>
+        <summary>A video game villain wants to be a hero and sets out to fulfill his dream, but his quest brings havoc to the whole arcade where he lives.</summary>
+        <year>2012</year>
+        <director>Rich Moore</director>
+        <runtime>101</runtime>
+        <studio>Disney</studio>
+        <actors>
+            <actor>
+                <lastName>Reilly</lastName>
+                <firstName>John</firstName>
+                <url>http://www.imdb.com/name/nm0000604/</url>
+            </actor>
+            <actor>
+                <lastName>McBrayer</lastName>
+                <firstName>Jack</firstName>
+                <url>http://www.imdb.com/name/nm1442113/</url>
+            </actor>
+            <actor>
+                <lastName>Lynch</lastName>
+                <firstName>Jane</firstName>
+                <url>http://www.imdb.com/name/nm0528331/</url>
+            </actor>
+        </actors>
+    </movie>
+    <movie genre="horror" movieRating="R" viewerRating="3">
+        <title>Hostel</title>
+        <summary>Three backpackers head to a Slovak city that promises to meet their hedonistic expectations, with no idea of the hell that awaits them.</summary>
+        <year>2005</year>
+        <director>Eli Roth</director>
+        <runtime>94</runtime>
+        <studio>Universal</studio>
+        <actors>
+            <actor>
+                <lastName>Hernandez</lastName>
+                <firstName>Jay</firstName>
+                <url>http://www.imdb.com/name/nm0379596/</url>
+            </actor>
+            <actor>
+                <lastName>Richardson</lastName>
+                <firstName>Derek</firstName>
+                <url>http://www.imdb.com/name/nm1277177/</url>
+            </actor>
+            <actor>
+                <lastName>Gudjonsson</lastName>
+                <firstName>Eythor</firstName>
+                <url>http://www.imdb.com/name/nm1898448/</url>
+            </actor>
+        </actors>
+    </movie>
+    <movie genre="horror" movieRating="R" viewerRating="3">
+        <title>Aliens</title>
+        <summary>The planet from Alien (1979) has been colonized, but contact is lost. This time, the rescue team has impressive firepower, but will it be enough?</summary>
+        <year>1986</year>
+        <director>James Cameron</director>
+        <runtime>137</runtime>
+        <studio>20th Century Fox</studio>
+        <actors>
+            <actor>
+                <lastName>Weaver</lastName>
+                <firstName>Sigourney</firstName>
+                <url>http://www.imdb.com/name/nm0000244/</url>
+            </actor>
+            <actor>
+                <lastName>Biehn</lastName>
+                <firstName>Michael</firstName>
+                <url>http://www.imdb.com/name/nm0000299/</url>
+            </actor>
+            <actor>
+                <lastName>Henn</lastName>
+                <firstName>Carrie</firstName>
+                <url>http://www.imdb.com/name/nm0001343/</url>
+            </actor>
+        </actors>
+    </movie>
+    <movie genre="other" movieRating="PG-13" viewerRating="4">
+        <title>The Avengers</title>
+        <summary>Nick Fury of S.H.I.E.L.D. assembles a team of superheroes to save the planet from Loki and his army.</summary>
+        <year>1986</year>
+        <director>Joss Whedon</director>
+        <runtime>143</runtime>
+        <studio>Disney</studio>
+        <actors>
+            <actor>
+                <lastName>Downey</lastName>
+                <firstName>Robert</firstName>
+                <url>http://www.imdb.com/name/nm0000375/</url>
+            </actor>
+            <actor>
+                <lastName>Evans</lastName>
+                <firstName>Chris</firstName>
+                <url>http://www.imdb.com/name/nm0262635/</url>
+            </actor>
+            <actor>
+                <lastName>Johansson</lastName>
+                <firstName>Scarlett</firstName>
+                <url>http://www.imdb.com/name/nm0424060/</url>
+            </actor>
+        </actors>
+    </movie>
+</movies>
+
+<!-- Validated with http://www.xmlvalidation.com/index.php -->

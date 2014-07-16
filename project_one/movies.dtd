@@ -1,0 +1,16 @@
+<!ELEMENT movies (movie+)>
+<!ELEMENT movie (title,summary,year,director,runtime,studio,actors)>
+<!ATTLIST movie genre (action|comedy|drama|family|foreign|horror|musical|other) "other">
+<!ATTLIST movie movieRating (G|PG|PG-13|R|NC-17) "PG-13">
+<!ATTLIST movie viewerRating (1|2|3|4|5) "1">
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT summary (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT runtime (#PCDATA)>
+<!ELEMENT studio (#PCDATA)>
+<!ELEMENT actors (actor+)>
+<!ELEMENT actor (lastName, firstName, url)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
