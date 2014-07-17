@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+
+<!-- Ian Nelson   -->
+<!-- CMIS170      -->
+<!-- Homework 3   -->
+<!-- Nick Pitocco -->
+
+<!-- Courses taken from http://webapps.umuc.edu/soc/us.cfm?fAcad=UGRD&fSess=2148&fLoc=ALL&fSubj=&fFetchRows=99999 -->
+
+<Courses xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <Course>
+        <id>1</id>
+        <department>Computer Science</department>
+        <number>150</number>
+        <title>Introduction to Discrete Structures</title>
+        <dateoffere>2014-08-18</dateoffere>
+        <offeredSpring>true</offeredSpring>
+    </Course>
+    <Course>
+        <id>2</id>
+        <department>Computer Science</department>
+        <number>330</number>
+        <title>Advanced Programming Languages</title>
+        <dateoffere>2014-08-18</dateoffere>
+        <offeredSpring>true</offeredSpring>
+    </Course>
+    <Course>
+        <id>3</id>
+        <department>Computer Science</department>
+        <number>465</number>
+        <title>Image and Signal Processing</title>
+        <dateoffere>2014-10-20</dateoffere>
+        <offeredSpring>true</offeredSpring>
+    </Course>
+    <Course>
+        <id>4</id>
+        <department>Computer Science</department>
+        <number>335</number>
+        <title>Object-Oriented and Concurrent Programming</title>
+        <dateoffere>2014-10-20</dateoffere>
+        <offeredSpring>true</offeredSpring>
+    </Course>
+    <Course>
+        <id>5</id>
+        <department>Computer Science</department>
+        <number>325</number>
+        <title>Game Design and Development</title>
+        <dateoffere>2014-10-20</dateoffere>
+        <offeredSpring>true</offeredSpring>
+    </Course>
+    <Course>
+        <id>6</id>
+        <department>Computer and Information Science</department>
+        <number>320</number>
+        <title>Relational Database Concepts and Applications</title>
+        <dateoffere>2014-10-20</dateoffere>
+        <offeredSpring>true</offeredSpring>
+    </Course>
+    <Course>
+        <id>7</id>
+        <department>Computer and Information Science</department>
+        <number>420</number>
+        <title>Advanced Relational Database Concepts and Applications</title>
+        <dateoffere>2014-08-18</dateoffere>
+        <offeredSpring>true</offeredSpring>
+    </Course>
+    <Course>
+        <id>8</id>
+        <department>Computer and Information Science</department>
+        <number>320</number>
+        <title>Relational Database Concepts and Applications</title>
+        <dateoffere>2014-09-08</dateoffere>
+        <offeredSpring>true</offeredSpring>
+    </Course>
+</Courses>
+
+<!-- Validated with http://www.xmlvalidation.com/index.php -->
