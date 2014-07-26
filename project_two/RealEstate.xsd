@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+
+<!-- Ian Nelson   -->
+<!-- CMIS170      -->
+<!-- Project 2    -->
+<!-- Nick Pitocco -->
+
+<!-- XML document with real estate listings -->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <xsd:element name="RealEstate">
+      <xsd:complexType>
+         <xsd:sequence>
+            <xsd:element minOccurs="10" maxOccurs="unbounded" ref="Listing"/>
+         </xsd:sequence>
+      </xsd:complexType>
+   </xsd:element>
+   <xsd:element name="Listing">
+      <xsd:complexType>
+         <xsd:sequence>
+            <xsd:element name="streetAddress" type="xsd:string"/>
+            <xsd:element name="city" type="xsd:string"/>
+            <xsd:element name="state">
+               <xsd:simpleType>
+                   <xsd:restriction base="xsd:string">
+                       <xsd:enumeration value="Maryland" />
+                       <xsd:enumeration value="Delaware" />
+                       <xsd:enumeration value="Virginia" />
+                   </xsd:restriction>
+               </xsd:simpleType>
+            </xsd:element>
+            <xsd:element name="zipcode" type="xsd:integer"/>
+            <xsd:element name="price">
+               <xsd:simpleType>
+                   <xsd:restriction base="xsd:string">
+                       <xsd:enumeration value="100K" />
+                       <xsd:enumeration value="100K to 300K" />
+                       <xsd:enumeration value="300K to 600K" />
+                       <xsd:enumeration value="600K to 1M" />
+                       <xsd:enumeration value="1M or more" />
+                   </xsd:restriction>
+               </xsd:simpleType>
+            </xsd:element>
+            <xsd:element name="sqFeet" type="xsd:integer"/>
+            <xsd:element name="acres" type="xsd:decimal"/>
+            <xsd:element name="numBedrooms">
+               <xsd:simpleType>
+                  <xsd:restriction base="xsd:integer">
+                     <xsd:minInclusive value="1"/>
+                     <xsd:maxInclusive value="8"/>
+                  </xsd:restriction>
+               </xsd:simpleType>
+            </xsd:element>
+            <xsd:element name="numBathrooms">
+               <xsd:simpleType>
+                  <xsd:restriction base="xsd:integer">
+                     <xsd:minInclusive value="1"/>
+                     <xsd:maxInclusive value="8"/>
+                  </xsd:restriction>
+               </xsd:simpleType>
+            </xsd:element>
+            <xsd:element name="schoolDistrict" type="xsd:string"/>
+            <xsd:element name="propertyTaxes" type="xsd:integer"/>
+         </xsd:sequence>
+      </xsd:complexType>
+   </xsd:element>
+</xsd:schema>

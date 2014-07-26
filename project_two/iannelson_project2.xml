@@ -1,0 +1,142 @@
+<?xml version="1.0" ?>
+
+<!-- Ian Nelson   -->
+<!-- CMIS170      -->
+<!-- Project 2    -->
+<!-- Nick Pitocco -->
+
+<!-- Listings via http://www.zillow.com -->
+
+<RealEstate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="RealEstate.xsd">
+    <Listing>
+        <streetAddress>5206 Holden St</streetAddress>
+        <city>Fairfax</city>
+        <state>Virginia</state>
+        <zipcode>22032</zipcode>
+        <price>600K to 1M</price>
+        <sqFeet>2400</sqFeet>
+        <acres>0.35</acres>
+        <numBedrooms>4</numBedrooms>
+        <numBathrooms>3</numBathrooms>
+        <schoolDistrict>Oak View</schoolDistrict>
+        <propertyTaxes>4873</propertyTaxes>
+    </Listing>
+    <Listing>
+        <streetAddress>1331 Old Mountain Rd</streetAddress>
+        <city>Pasadena</city>
+        <state>Maryland</state>
+        <zipcode>2122</zipcode>
+        <price>100K to 300K</price>
+        <sqFeet>1514</sqFeet>
+        <acres>0.5</acres>
+        <numBedrooms>3</numBedrooms>
+        <numBathrooms>2</numBathrooms>
+        <schoolDistrict>Bodkin</schoolDistrict>
+        <propertyTaxes>2308</propertyTaxes>
+    </Listing>
+    <Listing>
+        <streetAddress>107 Riverview Dr</streetAddress>
+        <city>New Castle</city>
+        <state>Delaware</state>
+        <zipcode>19720</zipcode>
+        <price>100K to 300K</price>
+        <sqFeet>725</sqFeet>
+        <acres>0.2</acres>
+        <numBedrooms>3</numBedrooms>
+        <numBathrooms>2</numBathrooms>
+        <schoolDistrict>Colwyck</schoolDistrict>
+        <propertyTaxes>0</propertyTaxes>
+    </Listing>
+    <Listing>
+        <streetAddress>52 Underwood Ln</streetAddress>
+        <city>Forest</city>
+        <state>Virginia</state>
+        <zipcode>24551</zipcode>
+        <price>100K to 300K</price>
+        <sqFeet>3049</sqFeet>
+        <acres>0.07</acres>
+        <numBedrooms>2</numBedrooms>
+        <numBathrooms>2</numBathrooms>
+        <schoolDistrict>Tomahawk</schoolDistrict>
+        <propertyTaxes>0</propertyTaxes>
+    </Listing>
+    <Listing>
+        <streetAddress>13348 Moonlight Trail Dr</streetAddress>
+        <city>Silver Spring</city>
+        <state>Maryland</state>
+        <zipcode>20906</zipcode>
+        <price>600K to 1M</price>
+        <sqFeet>6388</sqFeet>
+        <acres>0.5</acres>
+        <numBedrooms>5</numBedrooms>
+        <numBathrooms>4</numBathrooms>
+        <schoolDistrict>Georgian Forest</schoolDistrict>
+        <propertyTaxes>8143</propertyTaxes>
+    </Listing>
+    <Listing>
+        <streetAddress>118 Arrowhead Ln</streetAddress>
+        <city>Stuarts Draft</city>
+        <state>Virginia</state>
+        <zipcode>24477</zipcode>
+        <price>100K to 300K</price>
+        <sqFeet>2844</sqFeet>
+        <acres>0.06</acres>
+        <numBedrooms>3</numBedrooms>
+        <numBathrooms>3</numBathrooms>
+        <schoolDistrict>Guy K. Stump</schoolDistrict>
+        <propertyTaxes>0</propertyTaxes>
+    </Listing>
+    <Listing>
+        <streetAddress>9 Windy Dr</streetAddress>
+        <city>Milford</city>
+        <state>Delaware</state>
+        <zipcode>19963</zipcode>
+        <price>100K to 300K</price>
+        <sqFeet>2040</sqFeet>
+        <acres>0.25</acres>
+        <numBedrooms>3</numBedrooms>
+        <numBathrooms>2</numBathrooms>
+        <schoolDistrict>Ross</schoolDistrict>
+        <propertyTaxes>1122</propertyTaxes>
+    </Listing>
+    <Listing>
+        <streetAddress>19321 Lee St</streetAddress>
+        <city>Melfa</city>
+        <state>Virginia</state>
+        <zipcode>23410</zipcode>
+        <price>100K to 300K</price>
+        <sqFeet>960</sqFeet>
+        <acres>0.02</acres>
+        <numBedrooms>3</numBedrooms>
+        <numBathrooms>2</numBathrooms>
+        <schoolDistrict>Pungoteague</schoolDistrict>
+        <propertyTaxes>341</propertyTaxes>
+    </Listing>
+    <Listing>
+        <streetAddress>1728 Lancaster Ave</streetAddress>
+        <city>Wilmington</city>
+        <state>Delaware</state>
+        <zipcode>19805</zipcode>
+        <price>100K</price>
+        <sqFeet>1086</sqFeet>
+        <acres>0.02</acres>
+        <numBedrooms>3</numBedrooms>
+        <numBathrooms>1</numBathrooms>
+        <schoolDistrict>Elbert-Palmer</schoolDistrict>
+        <propertyTaxes>0</propertyTaxes>
+    </Listing>
+    <Listing>
+        <streetAddress>7865 Kings Bench Pl</streetAddress>
+        <city>Pasadena</city>
+        <state>Maryland</state>
+        <zipcode>21122</zipcode>
+        <price>100K to 300K</price>
+        <sqFeet>2068</sqFeet>
+        <acres>0.1</acres>
+        <numBedrooms>3</numBedrooms>
+        <numBathrooms>3</numBathrooms>
+        <schoolDistrict>High Point</schoolDistrict>
+        <propertyTaxes>2873</propertyTaxes>
+    </Listing>
+</RealEstate>
