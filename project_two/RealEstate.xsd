@@ -5,7 +5,7 @@
 <!-- Project 2    -->
 <!-- Nick Pitocco -->
 
-<!-- XML document with real estate listings -->
+<!-- XML Schema Document with Restrictions -->
 
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
    <xsd:element name="RealEstate">
