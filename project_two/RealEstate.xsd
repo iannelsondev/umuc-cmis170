@@ -33,11 +33,11 @@
             <xsd:element name="price">
                <xsd:simpleType>
                    <xsd:restriction base="xsd:string">
-                       <xsd:enumeration value="100K" />
-                       <xsd:enumeration value="100K to 300K" />
-                       <xsd:enumeration value="300K to 600K" />
-                       <xsd:enumeration value="600K to 1M" />
-                       <xsd:enumeration value="1M or more" />
+                       <xsd:enumeration value="&lt;100K" />
+                       <xsd:enumeration value="100K to &lt;300K" />
+                       <xsd:enumeration value="300K to &lt;600K" />
+                       <xsd:enumeration value="600K to &lt;1M" />
+                       <xsd:enumeration value="&gt;1M" />
                    </xsd:restriction>
                </xsd:simpleType>
             </xsd:element>

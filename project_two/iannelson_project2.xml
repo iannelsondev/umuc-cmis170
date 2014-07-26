@@ -5,6 +5,8 @@
 <!-- Project 2    -->
 <!-- Nick Pitocco -->
 
+<!-- XML document with real estate listings -->
+
 <!-- Listings via http://www.zillow.com -->
 
 <RealEstate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -14,7 +16,7 @@
         <city>Fairfax</city>
         <state>Virginia</state>
         <zipcode>22032</zipcode>
-        <price>600K to 1M</price>
+        <price>600K to &lt;1M</price>
         <sqFeet>2400</sqFeet>
         <acres>0.35</acres>
         <numBedrooms>4</numBedrooms>
@@ -27,7 +29,7 @@
         <city>Pasadena</city>
         <state>Maryland</state>
         <zipcode>2122</zipcode>
-        <price>100K to 300K</price>
+        <price>100K to &lt;300K</price>
         <sqFeet>1514</sqFeet>
         <acres>0.5</acres>
         <numBedrooms>3</numBedrooms>
@@ -40,7 +42,7 @@
         <city>New Castle</city>
         <state>Delaware</state>
         <zipcode>19720</zipcode>
-        <price>100K to 300K</price>
+        <price>100K to &lt;300K</price>
         <sqFeet>725</sqFeet>
         <acres>0.2</acres>
         <numBedrooms>3</numBedrooms>
@@ -53,7 +55,7 @@
         <city>Forest</city>
         <state>Virginia</state>
         <zipcode>24551</zipcode>
-        <price>100K to 300K</price>
+        <price>100K to &lt;300K</price>
         <sqFeet>3049</sqFeet>
         <acres>0.07</acres>
         <numBedrooms>2</numBedrooms>
@@ -66,7 +68,7 @@
         <city>Silver Spring</city>
         <state>Maryland</state>
         <zipcode>20906</zipcode>
-        <price>600K to 1M</price>
+        <price>600K to &lt;1M</price>
         <sqFeet>6388</sqFeet>
         <acres>0.5</acres>
         <numBedrooms>5</numBedrooms>
@@ -79,7 +81,7 @@
         <city>Stuarts Draft</city>
         <state>Virginia</state>
         <zipcode>24477</zipcode>
-        <price>100K to 300K</price>
+        <price>100K to &lt;300K</price>
         <sqFeet>2844</sqFeet>
         <acres>0.06</acres>
         <numBedrooms>3</numBedrooms>
@@ -92,7 +94,7 @@
         <city>Milford</city>
         <state>Delaware</state>
         <zipcode>19963</zipcode>
-        <price>100K to 300K</price>
+        <price>100K to &lt;300K</price>
         <sqFeet>2040</sqFeet>
         <acres>0.25</acres>
         <numBedrooms>3</numBedrooms>
@@ -105,7 +107,7 @@
         <city>Melfa</city>
         <state>Virginia</state>
         <zipcode>23410</zipcode>
-        <price>100K to 300K</price>
+        <price>100K to &lt;300K</price>
         <sqFeet>960</sqFeet>
         <acres>0.02</acres>
         <numBedrooms>3</numBedrooms>
@@ -118,7 +120,7 @@
         <city>Wilmington</city>
         <state>Delaware</state>
         <zipcode>19805</zipcode>
-        <price>100K</price>
+        <price>&lt;100K</price>
         <sqFeet>1086</sqFeet>
         <acres>0.02</acres>
         <numBedrooms>3</numBedrooms>
@@ -131,7 +133,7 @@
         <city>Pasadena</city>
         <state>Maryland</state>
         <zipcode>21122</zipcode>
-        <price>100K to 300K</price>
+        <price>100K to &lt;300K</price>
         <sqFeet>2068</sqFeet>
         <acres>0.1</acres>
         <numBedrooms>3</numBedrooms>
