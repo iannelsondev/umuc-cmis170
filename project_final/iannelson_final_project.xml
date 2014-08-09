@@ -1,8 +1,14 @@
+<!-- Ian Nelson    -->
+<!-- CMIS170       -->
+<!-- Final Project -->
+<!-- Nick Pitocco  -->
+
+<!-- GeoRSS 2.0 XML Feed -->
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:gml="http://www.opengis.net/gml">
     <title>Washington D.C. Landmarks</title>
     <subtitle>Interesting Landmarks around the Nation's Capital</subtitle>
-    <link href="http://example.org/"/>
+    <link href="https://raw.githubusercontent.com/in2rd/umuc-cmis170/master/project_final/iannelson_final_project.xml/"/>
     <updated>2005-12-13T18:30:02Z</updated>
     <author>
         <name>Ian Nelson</name>
@@ -50,3 +56,6 @@
         <georss:point>38.8960602 -77.0555775</georss:point>
     </entry>
 </feed>
+
+<!-- Validated by http://www.xmlvalidation.com/ for XML structure  -->
+<!-- Validated by http://validator.w3.org/feed/ for Atom structure -->
