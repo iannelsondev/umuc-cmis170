@@ -1,10 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <!-- Ian Nelson    -->
 <!-- CMIS170       -->
 <!-- Final Project -->
 <!-- Nick Pitocco  -->
 
 <!-- GeoRSS 2.0 XML Feed -->
-<?xml version="1.0" encoding="utf-8"?>
+
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:gml="http://www.opengis.net/gml">
     <title>Washington D.C. Landmarks</title>
     <subtitle>Interesting Landmarks around the Nation's Capital</subtitle>
