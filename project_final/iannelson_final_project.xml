@@ -6,58 +6,73 @@
 <!-- Nick Pitocco  -->
 
 <!-- GeoRSS 2.0 XML Feed -->
-
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:gml="http://www.opengis.net/gml">
-    <title>Washington D.C. Landmarks</title>
-    <subtitle>Interesting Landmarks around the Nation's Capital</subtitle>
-    <link href="https://raw.githubusercontent.com/in2rd/umuc-cmis170/master/project_final/iannelson_final_project.xml/"/>
-    <updated>2005-12-13T18:30:02Z</updated>
-    <author>
-        <name>Ian Nelson</name>
-        <email>iannelson1@gmail.com</email>
-    </author>
-    <id>urn:uuid:d0273a71-9f3e-46db-93dc-839e3c543903</id>
-    <entry>
-        <title>Union Station</title>
-        <link href="https://www.google.com/maps/place/Union+Station+Metro+Station/@38.89777,-77.006402,17z/data=!3m1!4b1!4m2!3m1!1s0x89b7b826cb50ca07:0xe6031ca91369b361"/>
-        <id>urn:uuid:12976575-3bf0-41f5-b72b-6c38562e1e83</id>
-        <updated>2014-08-18T20:30:00Z</updated>
-        <summary>Union Station is a major train station, transportation hub, and leisure destination</summary>
-        <georss:point>38.89777 -77.006402</georss:point>
-    </entry>
-    <entry>
-        <title>Lincoln Memorial</title>
-        <link href="https://www.google.com/maps/place/Lincoln+Memorial/@38.889269,-77.050176,17z/data=!3m1!4b1!4m2!3m1!1s0x89b7b771e0906287:0x1049d1c9c95c2eb6"/>
-        <id>urn:uuid:1cbbcef0-74ad-4437-a8c7-195a7e916002</id>
-        <updated>2014-08-18T20:30:00Z</updated>
-        <summary>The Lincoln Memorial is an American national monument built to honor the 16th President of the United States, Abraham Lincoln</summary>
-        <georss:point>38.889269 -77.050176</georss:point>
-    </entry>
-    <entry>
-        <title>United States Naval Observatory </title>
-        <link href="https://www.google.com/maps/place/United+States+Naval+Observatory/@38.921674,-77.066884,17z/data=!3m1!4b1!4m2!3m1!1s0x89b7b62f93f61443:0xeba717baca31d77d"/>
-        <id>urn:uuid:db1ce6b5-3703-4ee9-8b08-0b433399e942</id>
-        <updated>2014-08-18T20:30:00Z</updated>
-        <summary>The United States Naval Observatory is one of the oldest scientific agencies in the United States, with a primary mission to produce Positioning, Navigation and Timing for the U.S. Navy and the U.S. Department of Defense</summary>
-        <georss:point>38.921674 -77.066884</georss:point>
-    </entry>
-    <entry>
-        <title>Pentagon</title>
-        <link href="https://www.google.com/maps/place/The+Pentagon/@38.871857,-77.056267,17z/data=!3m1!4b1!4m2!3m1!1s0x89b7b6df29ed2c27:0xaf83d0f8c013532f"/>
-        <id>urn:uuid:433b4e20-aa76-455b-bc03-aad2ba9335fe</id>
-        <updated>2014-08-18T20:30:00Z</updated>
-        <summary>The Pentagon is the headquarters of the United States Department of Defense, located in Arlington County, Virginia</summary>
-        <georss:point>38.8717138 -77.0562438</georss:point>
-    </entry>
-    <entry>
-        <title>Kennedy Center </title>
-        <link href="https://www.google.com/maps/place/The+John+F.+Kennedy+Center+for+the+Performing+Arts/@38.89583,-77.055647,17z/data=!3m1!4b1!4m2!3m1!1s0x89b7b7ad23ab0839:0xb70ae9e47907589d"/>
-        <id>urn:uuid:f6e4bc11-a4ce-410d-8ef8-91d513bf8356</id>
-        <updated>2014-08-18T20:30:00Z</updated>
-        <summary>The John F. Kennedy Center for the Performing Arts is a performing arts center located on the Potomac River, adjacent to the Watergate complex</summary>
-        <georss:point>38.8960602 -77.0555775</georss:point>
-    </entry>
-</feed>
+<rss version="2.0"  xmlns:georss="http://www.georss.org/georss"  xmlns:gml="http://www.opengis.net/gml">
+    <channel>
+        <link>http://maps.google.com</link>
+        <title>Washington D.C. Landmarks</title>
+        <description>Interesting Landmarks around the Nation's Capital</description>
+        <item>
+            <guid isPermaLink="false">d0273a719f3e46db93dc839e3c543903</guid>
+            <pubDate>Friday, 08 Aug 2007 20:00:00 +0000</pubDate>
+            <title>Union Station</title>
+            <description>Union Station is a major train station, transportation hub, and leisure destination</description>
+            <author>Ian Nelson</author>
+            <<georss:where>
+                <gml:Point>
+                    <gml:pos>38.89777 -77.006402</gml:pos>
+                </gml:Point>
+            </georss:where>
+        </item>
+        <item>
+            <guid isPermaLink="false">1cbbcef074ad4437a8c7195a7e916002</guid>
+            <pubDate>Friday, 08 Aug 2007 20:00:00 +0000</pubDate>
+            <title>Lincoln Memorial</title>
+            <description>The Lincoln Memorial is an American national monument built to honor the 16th President of the United States, Abraham Lincoln</description>
+            <author>Ian Nelson</author>
+            <<georss:where>
+                <gml:Point>
+                    <gml:pos>38.889269 -77.050176</gml:pos>
+                </gml:Point>
+            </georss:where>
+        </item>
+        <item>
+            <guid isPermaLink="false">db1ce6b537034ee98b080b433399e942</guid>
+            <pubDate>Friday, 08 Aug 2007 20:00:00 +0000</pubDate>
+            <title>United States Naval Observatory</title>
+            <description>The United States Naval Observatory is one of the oldest scientific agencies in the United States, with a primary mission to produce Positioning, Navigation and Timing for the U.S. Navy and the U.S. Department of Defense</description>
+            <author>Ian Nelson</author>
+            <<georss:where>
+                <gml:Point>
+                    <gml:pos>38.921674 -77.066884</gml:pos>
+                </gml:Point>
+            </georss:where>
+        </item>
+        <item>
+            <guid isPermaLink="false">433b4e20aa76455bbc03aad2ba9335fe</guid>
+            <pubDate>Friday, 08 Aug 2007 20:00:00 +0000</pubDate>
+            <title>Pentagon</title>
+            <description>The Pentagon is the headquarters of the United States Department of Defense, located in Arlington County, Virginia</description>
+            <author>Ian Nelson</author>
+            <<georss:where>
+                <gml:Point>
+                    <gml:pos>38.8717138 -77.0562438</gml:pos>
+                </gml:Point>
+            </georss:where>
+        </item>
+        <item>
+            <guid isPermaLink="false">f6e4bc11a4ce410d8ef891d513bf8356</guid>
+            <pubDate>Friday, 08 Aug 2007 20:00:00 +0000</pubDate>
+            <title>Kennedy Center</title>
+            <description>The John F. Kennedy Center for the Performing Arts is a performing arts center located on the Potomac River, adjacent to the Watergate complex</description>
+            <author>Ian Nelson</author>
+            <<georss:where>
+                <gml:Point>
+                    <gml:pos>38.8960602 -77.0555775</gml:pos>
+                </gml:Point>
+            </georss:where>
+        </item>
+    </channel>
+</rss>
 
 <!-- Validated by http://www.xmlvalidation.com/ for XML structure  -->
 <!-- Validated by http://validator.w3.org/feed/ for Atom structure -->
